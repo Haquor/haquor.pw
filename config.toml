@@ -1,94 +1,70 @@
-baseurl = "https://pages.gitlab.io/hugo/"
-contentdir    = "content"
-layoutdir     = "layouts"
-publishdir    = "public"
-title = "Beautiful Hugo"
-canonifyurls  = true
+baseurl = "http://localhost:1313/" # Make sure to end baseurl with a '/'
+languageCode = "en-us"
+title = "Work Journal and R&D Log"
+theme = "blackburn"
+author = "nynex"
+copyright = "&copy; 2019. All rights reserved."
+canonifyurls = true
+paginate = 10
 
-DefaultContentLanguage = "en"
-theme = "beautifulhugo"
-metaDataFormat = "yaml"
-pygmentsUseClasses = true
-pygmentCodeFences = true
-#disqusShortname = "XXX"
-#googleAnalytics = "XXX"
+[indexes]
+  tag = "tags"
+  topic = "topics"
 
-[Params]
-  subtitle = "Hugo Blog Template for GitLab Pages"
-  logo = "img/avatar-icon.png"
-  favicon = "img/favicon.ico"
-  dateFormat = "January 2, 2006"
-  commit = false
-  rss = true
-  comments = true
-#  gcse = "012345678901234567890:abcdefghijk" # Get your code from google.com/cse. Make sure to go to "Look and Feel" and change Layout to "Full Width" and Theme to "Classic"
+[params]
+  # Shown in the home page
+  subtitle = "Find me where the sun is shining"
+  brand = "Nynex"
+  # CSS name for highlight.js
+  highlightjs = "androidstudio"
+  dateFormat = "02 Jan 2006, 15:04"
+  # Include any custom CSS and/or JS files
+  # (relative to /static folder)
+  #custom_css = ["css/my.css"]
+  #custom_js = ["js/my.js"]
 
-#[[Params.bigimg]]
-#  src = "img/triangle.jpg"
-#  desc = "Triangle"
-#[[Params.bigimg]]
-#  src = "img/sphere.jpg"
-#  desc = "Sphere"
-#[[Params.bigimg]]
-#  src = "img/hexagon.jpg"
-#  desc = "Hexagon"
-
-[Author]
-  name = "Some Person"
-  email = "youremail@domain.com"
-  facebook = "username"
-  googleplus = "+username" # or xxxxxxxxxxxxxxxxxxxxx
-  gitlab = "username"
-  github = "username"
-  twitter = "username"
-  reddit = "username"
-  linkedin = "username"
-  xing = "username"
-  stackoverflow = "users/XXXXXXX/username"
-  snapchat = "username"
-  instagram = "username"
-  youtube = "user/username" # or channel/channelname
-  soundcloud = "username"
-  spotify = "username"
-  bandcamp = "username"
-  itchio = "username"
-  keybase = "username"
-
-
-[[menu.main]]
-    name = "Blog"
-    url = ""
+[menu]
+  # Shown in the side menu.
+  [[menu.main]]
+    name = "Home"
+    pre = "<i class='fa fa-home fa-fw'></i>"
     weight = 1
-
-[[menu.main]]
+    identifier = "home"
+    url = "/"
+  [[menu.main]]
+    name = "Posts"
+    pre = "<i class='fa fa-list fa-fw'></i>"
+    weight = 2
+    identifier = "post"
+    url = "/"
+  [[menu.main]]
     name = "About"
-    url = "page/about/"
+    pre = "<i class='fa fa-user fa-fw'></i>"
     weight = 3
+    identifier = "about"
+    url = "/about/"
+  [[menu.main]]
+    name = "Contact"
+    pre = "<i class='fa fa-phone fa-fw'></i>"
+    weight = 4
+    url = "/contact/"
 
-[[menu.main]]
-    identifier = "samples"
-    name = "Samples"
-    weight = 2
+[social]
+  # Link your social networking accounts to the side menu
+  # by entering your username or ID.
 
-[[menu.main]]
-    parent = "samples"
-    name = "Big Image Sample"
-    url = "post/2017-03-07-bigimg-sample"
-    weight = 1
+  # SNS microblogging
+  youtube = "*"
 
-[[menu.main]]
-    parent = "samples"
-    name = "Math Sample"
-    url = "post/2017-03-05-math-sample"
-    weight = 2
+  # SNS career oriented
+  linkedin = "netshift"
 
-[[menu.main]]
-    parent = "samples"
-    name = "Code Sample"
-    url = "post/2016-03-08-code-sample"
-    weight = 3
+  # Techie
+  github = "haquor"
+  gitlab = "haquor"
+  stackoverflow = "1989033/nathan-taylor"
+  serverfault = "users/183401/nathan-taylor"
 
-[[menu.main]]
-    name = "Tags"
-    url = "tags"
-    weight = 3
+
+  # Other
+  keybase = "*"

@@ -4,9 +4,7 @@ date = "2014-04-09"
 sidemenu = "true"
 description = "About me and this site"
 +++
-
 Hugo is a static site engine written in Go.
-
 It makes use of a variety of open source projects including:
 
 * [Cobra](https://github.com/spf13/cobra)

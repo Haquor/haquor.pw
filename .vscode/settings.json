@@ -1,0 +1,5 @@
+{
+    "gitlab.instanceUrl": "https://gitlab.com",
+    "gitlab.enableExperimentalFeatures": true,
+    "gitlab.ignoreCertificateErrors": true
+}

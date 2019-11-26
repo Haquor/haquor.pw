@@ -1,4 +1,4 @@
-baseurl = "https://haquor.gitlab.io/" # Make sure to end baseurl with a '/'
+baseurl = "https://haquor.pw/" # Make sure to end baseurl with a '/'
 languageCode = "en-us"
 title = "Work Journal and R&D Log"
 theme = ["blackburn", "hugonews"]

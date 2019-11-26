@@ -17,6 +17,7 @@ paginate = 10
   title = "Work Journal and R&D Log"
   subtitle = "Disce Aut Discede"
   brand = "Nathan"
+  og_image = "logo2.png"
   # CSS name for highlight.js
   highlightjs = "atom-one-light"
   dateFormat = "02 Jan 2006, 15:04"

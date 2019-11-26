@@ -5,6 +5,7 @@ draft: false
 title: Introducing Weevil
 type: post
 url: /2016/03/07/remote-logger-progress/
+image: "weevil.png"
 ---
 
 {{< fluid_imgs

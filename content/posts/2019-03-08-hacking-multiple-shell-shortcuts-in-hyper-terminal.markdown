@@ -1,8 +1,8 @@
 ---
-author: No Content Found
+author: Haquor
 date: 2019-03-08 10:24:20+00:00
 draft: false
-title: (Workaround) Multiple shell shortcuts in Hyper terminal
+title: "[Workaround] Multiple Shell Shortcuts in Hyper terminal"
 type: post
 url: /2019/03/08/hacking-multiple-shell-shortcuts-in-hyper-terminal/
 ---
@@ -16,7 +16,7 @@ A user on the issues page for Hyper's Github provided a workaround solution invo
 To further simplify and automate the process, I have set up a more preferable workaround. It also involves Hyper shortcuts Running as Administrator by Default while bypassing UAC confirmation.
 
 This solution is Windows native and has only been tested on Windows 10 Pro x64.
-
+<!--more-->
 Here's how its done
 
 

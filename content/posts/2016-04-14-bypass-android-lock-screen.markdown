@@ -1,5 +1,5 @@
 ---
-author: No Content Found
+author: Haquor
 date: 2016-04-14 04:22:40+00:00
 draft: false
 title: Bypass Android Lock Screen
@@ -11,17 +11,18 @@ This process revolves around deleting the .key files that enable the android loc
 
 Download ADB through [Cygwin ](http://x.cygwin.com/docs/ug/setup-cygwin-x-installing.html)on Windows, or with the following command on Linux:
 
-_sud apt-get install android-tools-adb_
+	sudo apt-get install android-tools-adb
 
+Connect the phone to your computer via USB
 
+Open a terminal window (linux) or cygwin (windows)
 
-	  1. Connect the phone to your computer via USB
-	  2. Open a terminal window (linux) or cygwin (windows)
-	  3. _adb devices
-_adb shell_
-_cd data/system_
-_su_
-_rm *.key__
+	adb devices
+	adb shell
+	cd data/system
+	su
+	rm *.key
+<!--more-->
 	  4. Reboot the device
 
 If this code, for whatever reason, does not work, there is another method that works for **ALL ANDROID DEVICES**.

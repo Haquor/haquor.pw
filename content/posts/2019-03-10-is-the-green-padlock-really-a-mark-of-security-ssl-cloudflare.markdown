@@ -1,18 +1,21 @@
 ---
-author: No Content Found
+author: Haquor
 date: 2019-03-10 14:10:14+00:00
 draft: false
-title: Is the green padlock really a mark of security? (SSL & Cloudflare)
+title: Is the Green Padlock Really a Mark of Security?
 type: post
 url: /2019/03/10/is-the-green-padlock-really-a-mark-of-security-ssl-cloudflare/
 ---
 
 We all know the trusty little green padlock button on our favorite websites as the guarantor that everything is exactly as it seems, but how accurate is that?
 
-![](https://0x73.ml/wp-content/uploads/2019/03/ev-green-bar-example02-300x123.png)
+{{< fluid_imgs
+  "pure-u-1-1|/ev-green-bar-example02.png|Green Bar Example"
+>}}
 
+<!--more-->
 
-The idea behind SSL is based on some pretty simple concepts. The idea of public key cryptography ensures that if a message is encrypted with a user's (or server's) private-key, it can only be _decrypted _with their public-key.
+The idea behind SSL is based on some pretty simple concepts. The idea of public key cryptography ensures that if a message is encrypted with a user's (or server's) private-key, it can only be decrypted with their public-key.
 
 The actual protocol dealing with these encryption algorithms started out as SSL, back in the mid-late 90s, but was found to be vulnerable to a [host of exploits](https://www.acunetix.com/blog/articles/tls-vulnerabilities-attacks-final-part/) targeting the strength of block cipher's. TLS has also found to be insecure, but that's a story for another post.
 
@@ -26,7 +29,7 @@ The risk is, that although Cloudflare might establish a secure connection from t
 
 A user on HackerNews, joepie91 [commented ](https://blog.cloudflare.com/introducing-universal-ssl/)on this issue back in 2016, citing an instance where users of The Pirate Bay experienced network blocking messages from the ISP, Airtel.
 
-![](https://0x73.ml/wp-content/uploads/2019/03/cloudflare1-300x63.png)
+![](/cloudflare1.png)
 
 
 What had  happened, was the Airtel had MiTM'd TPB's CloudFlare protected site.
@@ -50,4 +53,4 @@ If your CloudFlare site is using Flexible or Full SSL and someone changes the ba
 
 My beef isn't even really with CloudFlare, as a lot of sites use CloudFlare for subdomains of CDNs, which don't really require the same level of security as a fully functional website.
 
-But this huge move to "[#savetheweb](https://blog.cloudflare.com/introducing-universal-ssl/)" and make over 1 million websites that have **no actual **security just helps to mislead those who don't know the inner workings of web applications & platforms.
+But this huge move to "[#savetheweb](https://blog.cloudflare.com/introducing-universal-ssl/)" and make over 1 million websites that have **no actual** security just helps to mislead those who don't know the inner workings of web applications & platforms.

@@ -1,32 +1,20 @@
 ---
-author: admin
+author: Haquor
 date: 2019-08-26 07:43:55+00:00
 draft: false
-title: With Seamless Cross Platform Integration
+title: "HAQUOR's Loadout: Cloud Sync"
 type: post
 url: /2019/08/26/minimalism-through-secure-cloud-sync/
 ---
 
-
-
-
 It's hard to put into words my distaste for bloatware.
-
-
-
-
-
-
 
 Every installation of Windows comes with a certain set of extra software. Depending on where you get your computer, you'll find a preinstalled set of games, applications and sometimes even [adware](https://www.cnet.com/news/superfish-torments-lenovo-owners-with-more-than-adware/). Retail locations from brick and mortar stores like Best Buy to online vendors such as [Lenovo](https://www.pcworld.com/article/2889905/if-you-hate-pc-bloatware-here-are-the-vendors-to-avoid.html) package their products with such annoying bloatware.
 
+Working in a bloated environment is unacceptable. It's 2019, and we live in a world where we can get _whatever_ we want,_ whenever _we want. This reality **should** enable us to cultivate purposeful, efficient work spaces. 
 
-
-
-
-
-
-Working in a bloated environment is unacceptable. It's 2019, and we live in a world where we can get _whatever_ we want,_ whenever _we want. This reality **should** enable us to cultivate purposeful, efficient work spaces. These days, even the variety of projects I find myself engrossed in often create a bloated environment. New projects and challenges force me to adapt with new software solutions, which just seem to stack up on my hard drive.
+<!--more-->
+These days, even the variety of projects I find myself engrossed in often create a bloated environment. New projects and challenges force me to adapt with new software solutions, which just seem to stack up on my hard drive.
 
 
 

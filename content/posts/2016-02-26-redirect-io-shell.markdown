@@ -1,17 +1,16 @@
 ---
-author: No Content Found
+author: Haquor
 date: 2016-02-26 04:49:52+00:00
 draft: false
-title: redirect i/o shell
+title: Basic Reverse Shell
 type: post
 url: /2016/02/26/redirect-io-shell/
 ---
 
-building a shell that redirects output to listening system
+Building a shell that redirects output to listening system
 
 also, need to be able to send commands through the shell.
 
-    
     #include <string> 
     #include <iostream>
     #include <cstdio>
@@ -28,9 +27,7 @@ also, need to be able to send commands through the shell.
         }
         return result;
     }
-    
-
-
+<!--more-->
 [Source](http://stackoverflow.com/questions/478898/how-to-execute-a-command-and-get-output-of-command-within-c)
 
 First, design basic shell functionality in a C++ project Gate

@@ -4,6 +4,11 @@ date = "2014-04-09"
 sidemenu = "true"
 description = "About me and this site"
 +++
+Welcome to my work journal. I'm an IT professional trying to break into the InfoSec field. This blog serves as a general mind-dump for ideas, thoughts on [current events](../feed/) and projects. 
+
+It's a static site using deployed using Hugo and is hosted on [Gitlab](https://gitlab.com/Haquor/haquor.gitlab.io).
+
+## Hugo
 Hugo is a static site engine written in Go.
 It makes use of a variety of open source projects including:
 

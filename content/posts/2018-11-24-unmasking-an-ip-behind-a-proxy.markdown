@@ -1,5 +1,5 @@
 ---
-author: No Content Found
+author: Haquor
 date: 2018-11-24 21:04:05+00:00
 draft: false
 title: Unmasking an IP behind a proxy
@@ -15,7 +15,8 @@ There's also the TOR network, which routes the user through a series of anonymou
 
 This is well and good for people trying to hide their location. But have hackers found a way around this?
 
-There are **three **main ways a hacker can expose you real IP from behind a proxy or anonymity network.
+There are **three** main ways a hacker can expose you real IP from behind a proxy or anonymity network.
+<!--more-->
 
 
 ## Unsecured Code Objects

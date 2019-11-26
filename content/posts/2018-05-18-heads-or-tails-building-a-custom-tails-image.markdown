@@ -1,5 +1,5 @@
 ---
-author: No Content Found
+author: Haquor
 date: 2018-05-18 08:19:02+00:00
 draft: false
 title: 'Heads or Tails: Building a Custom Tails Image'
@@ -9,17 +9,10 @@ url: /2018/05/18/heads-or-tails-building-a-custom-tails-image/
 
 You should begin by prepping our build environment and grabbing a copy of the Tails source code, as detailed [here](https://tails.boum.org/contribute/build/).
 
-
 # Setup the build environment
+To install everything the Tails build system needs, execute the following command:
 
-
-
-
-
-	  1. To install everything the Tails build system needs, execute the following command:
-
-    
-    <code>sudo apt install \
+     sudo apt install \ 
         psmisc \
         git \
         rake \
@@ -32,40 +25,27 @@ You should begin by prepping our build environment and grabbing a copy of the Ta
         vagrant-libvirt \
         vmdebootstrap && \
     sudo systemctl restart libvirtd
-    </code>
+<!--more-->
+Ensure your user can run commands as root with `sudo`.
 
+Add your user to the relevant groups:
 
-
-	  2. Ensure your user can run commands as root with `sudo`.
-	  3. Ensure your user is in the relevant groups:
-
-    
-    <code>for group in kvm libvirt libvirt-qemu ; do
+    for group in kvm libvirt libvirt-qemu ; do
        sudo adduser "$(whoami)" "$group"
     done
-    </code>
 
-
-
-	  4. Logout and log back in to apply the new group memberships.
-
-
+Logout and log back in to apply the new group memberships.
 
 # Get the Sawce
 
-
-
-
-
-
-	  * To get the Tails sources and checkout the [development branch](https://tails.boum.org/contribute/git/#main-repo), execute the following commands:
+To get the Tails sources and checkout the [development branch](https://tails.boum.org/contribute/git/#main-repo), execute the following commands:
 
     
-    <code> git clone https://git-tails.immerda.ch/tails && \
+     git clone https://git-tails.immerda.ch/tails && \
      cd tails && \
      git checkout devel && \
      git submodule update --init
-    </code>
+    
 
 
 
@@ -120,6 +100,5 @@ But what we're specifically looking for....
 
 After hitting a dead end with the live manual I decided to take a look through the tails source directory. Immediately, a conveniently placed file entitled HACKING.mdwn caught my eye.
 
-https://gist.github.com/Isonyx/5fcb0e35854b97c4f05b2cc10058b6f4
-
+{{< gist Haquor 5fcb0e35854b97c4f05b2cc10058b6f4 >}}
 

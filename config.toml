@@ -1,7 +1,7 @@
-baseurl = "http://localhost:1313/" # Make sure to end baseurl with a '/'
+baseurl = "https://haquor.gitlab.io/" # Make sure to end baseurl with a '/'
 languageCode = "en-us"
 title = "Work Journal and R&D Log"
-theme = "blackburn"
+theme = ["blackburn", "hugonews"]
 author = "nynex"
 copyright = "&copy; 2019. All rights reserved."
 canonifyurls = true
@@ -13,10 +13,10 @@ paginate = 10
 
 [params]
   # Shown in the home page
-  subtitle = "Find me where the sun is shining"
-  brand = "Nynex"
+  subtitle = "Disce Aut Discede"
+  brand = "Nathan"
   # CSS name for highlight.js
-  highlightjs = "androidstudio"
+  highlightjs = "atom-one-light"
   dateFormat = "02 Jan 2006, 15:04"
   # Include any custom CSS and/or JS files
   # (relative to /static folder)
@@ -32,11 +32,11 @@ paginate = 10
     identifier = "home"
     url = "/"
   [[menu.main]]
-    name = "Posts"
+    name = "Feed"
     pre = "<i class='fa fa-list fa-fw'></i>"
     weight = 2
     identifier = "post"
-    url = "/"
+    url = "/feed/"
   [[menu.main]]
     name = "About"
     pre = "<i class='fa fa-user fa-fw'></i>"
@@ -68,3 +68,9 @@ paginate = 10
 
   # Other
   keybase = "*"
+  
+[taxonomies]
+    tag = "tags"
+    category = "categories"
+    site = "sites"
+    

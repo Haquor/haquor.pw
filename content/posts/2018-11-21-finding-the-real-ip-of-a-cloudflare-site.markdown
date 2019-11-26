@@ -1,19 +1,19 @@
 ---
-author: No Content Found
+author: Haquor
 date: 2018-11-21 20:50:19+00:00
 draft: false
-title: Finding the real IP of a Cloudflare site
+title: Finding the Real IP of a Cloudflare Site
 type: post
 url: /2018/11/21/finding-the-real-ip-of-a-cloudflare-site/
 ---
 
-<blockquote>[Cloudflare](https://www.cloudflare.com) and other reverse proxy services can make websites faster and safer. One of the benefits of these services is that they add a layer of anonymity to mask a website's hosting provider and other details.</blockquote>
+> [Cloudflare](https://www.cloudflare.com) and other reverse proxy services can make websites faster and safer. One of the benefits of these services is that they add a layer of anonymity to mask a website's hosting provider and other details.
 
 
 Sometimes, in our line of work, it's useful to know the real IP address associated with a Cloudflare hosted domain.
 
 Without hacking Cloudflare, there's no good way around their proxy. However, with the proper information, we can figure out what IP the original site used.
-
+<!--more-->
 When websites change, DNS information changes.
 
 This DNS information is publicly indexed by a variety of free/paid services. [SecurityTrails](https://securitytrails.com/dns-trails) provides an elegant solution, with paid access to more advanced information.

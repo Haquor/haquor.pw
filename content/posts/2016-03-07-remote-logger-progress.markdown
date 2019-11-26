@@ -1,17 +1,22 @@
 ---
-author: No Content Found
+author: Haquor
 date: 2016-03-07 21:13:45+00:00
 draft: false
-title: introducing weevil
+title: Introducing Weevil
 type: post
 url: /2016/03/07/remote-logger-progress/
 ---
+
+{{< fluid_imgs
+  "pure-u-1-1|/weevil.png|Weevil"
+>}}
 
 Progress is coming along well on the remote logger.
 
 When I began, my first thought was to craft a simple keylogger for personal use. I pretty quickly veered off on a tangent and ended up researching DLL injection.
 
 While doing this, I stumbled upon some other stuff involving byte code and other cool stuff soooo. I ended up conceptualizing this.
+<!--more-->
 
 Here's the informational so far
 

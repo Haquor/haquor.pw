@@ -13,6 +13,9 @@ paginate = 10
 
 [params]
   # Shown in the home page
+  description = "InfoSec shennanigans from a newcomer"
+  images = ["logo.png"]
+  title = "Work Journal and R&D Log"
   subtitle = "Disce Aut Discede"
   brand = "Nathan"
   # CSS name for highlight.js

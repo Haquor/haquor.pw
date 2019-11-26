@@ -5,6 +5,16 @@
   {{hugo.Generator}}
 
   {{ template "_internal/opengraph.html" . }}
+
+    <meta
+      property="og:image"
+      content="{{ if .Params.image }}{{.Site.BaseURL}}/{{.Params.image}}
+      {{ else }}
+        {{ .Params.ogimage }}
+      {{
+        end
+      }}"
+    />
   <title>{{ if .IsHome }}{{ .Title }}{{ else }}{{ .Title }} &middot; {{ .Site.Title }}{{ end }}</title>
 
     {{ if .Params.canonical }}

@@ -3,7 +3,6 @@ author: Haquor
 date: 2019-08-26 07:43:55+00:00
 draft: false
 title: "HAQUOR's Loadout: Cloud Sync"
-og_image: "/logo.png"
 type: post
 url: /2019/08/26/minimalism-through-secure-cloud-sync/
 ---

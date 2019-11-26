@@ -5,7 +5,6 @@ draft: false
 title: Is the Green Padlock Really a Mark of Security?
 type: post
 url: /2019/03/10/is-the-green-padlock-really-a-mark-of-security-ssl-cloudflare/
-og_image: "/logo.png"
 images: "/ev-green-bar-example02.png"
 ---
 

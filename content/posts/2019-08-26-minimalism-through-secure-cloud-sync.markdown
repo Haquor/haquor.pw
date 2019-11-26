@@ -5,6 +5,7 @@ draft: false
 title: "HAQUOR's Loadout: Cloud Sync"
 type: post
 url: /2019/08/26/minimalism-through-secure-cloud-sync/
+og_image: "/logo.png"
 ---
 
 It's hard to put into words my distaste for bloatware.

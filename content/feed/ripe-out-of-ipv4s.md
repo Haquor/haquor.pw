@@ -1,8 +1,9 @@
 ---
-title: "Ripe Out of IPv4s"
+title: "RIPE Out of IPv4s"
 date: 2019-11-26T01:56:14-05:00
 itemurl: "https://www.ripe.net/ripe/mail/archives/ripe-list/2019-November/001712.html"
 sites: "www.ripe.net"
+image: "ripe-logo.png"
 draft: false
 ---
 Today RIPE has announced it officially assigned the last available IPv4 address range

@@ -76,4 +76,8 @@ paginate = 10
     tag = "tags"
     category = "categories"
     site = "sites"
-    
+
+[markup]
+  [markup.goldmark]
+    [markup.goldmark.renderer]
+      unsafe = true

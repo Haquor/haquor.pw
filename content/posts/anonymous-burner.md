@@ -8,9 +8,9 @@ url: /2019/11/28/anonymous-burner/
 image: "voip-client.png"
 ---
 
-I debated keeping this method privatte for quite. And I have, for quite a while. The reason? I don't want it to catch on. I'd like to keep this SIP provider & method relatively obscure so it isn't abused by bad threat actors.
+I found this service while searching for a free VoIP provider and debated whether I should share. The reason? I didn't want it to catch on. I'd like to keep this SIP provider & method relatively obscure so it isn't abused by bad threat actors. So please, only use this for legal purposes. Don't get it shut down.
 
-The reason I'm sharing it is in the hopes it'll be useful to other security researchers or even just IT enthusiasts who want a quick, anonymous VoIP number.
+I'm sharing this in the hopes it'll be useful to other security researchers or even just IT enthusiasts who want a quick, anonymous VoIP number.
 
 Shout out to Kerberos for helping me troubleshoot the VPN aspect & JMP for the free services.
 <!--more-->

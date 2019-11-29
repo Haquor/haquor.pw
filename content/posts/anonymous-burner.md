@@ -17,7 +17,7 @@ Shout out to Kerberos for helping me troubleshoot the VPN aspect & JMP for the f
 
 ## Basic OPSEC
 
-Even the best laid plans all apart with bad OPSEC. This isn't the blog for learning [basic OPSEC](https://medium.com/@JMartinMcFly/basic-opsec-for-the-uninitiated-77d0839f7bce). Randomize handles, browse securely, and pay attention to services/softwae that creates unique fingerprints that might identify you later.
+Even the best laid plans fall apart with bad OPSEC. This isn't the blog for learning [basic OPSEC](https://medium.com/@JMartinMcFly/basic-opsec-for-the-uninitiated-77d0839f7bce). Randomize handles, browse securely, and pay attention to services/softwae that creates unique fingerprints that might identify you later.
 
 ## Secure Browsing
 

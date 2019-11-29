@@ -1,10 +1,10 @@
 ---
 author: Haquor
-date: 2019-11-28T18:37:12-05:00
+date: 2019-11-29T00:16:45-05:00
 draft: false
 title: "How to Set Up a Free, Anonymous VoIP phone"
 type: post
-url: /2019/11/28/anonymous-burner/
+url: /2019/11/29/anonymous-burner/
 image: "voip-client.png"
 ---
 

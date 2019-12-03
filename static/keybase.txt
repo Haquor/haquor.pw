@@ -1,0 +1,56 @@
+==================================================================
+https://keybase.io/haquor
+--------------------------------------------------------------------
+
+I hereby claim:
+
+  * I am an admin of https://haquor.pw
+  * I am haquor (https://keybase.io/haquor) on keybase.
+  * I have a public key ASCq_66-6O91_mKvFuyA_63rcj8nEs3_5BSQx_zrJJkcWQo
+
+To do so, I am signing this object:
+
+{
+  "body": {
+    "key": {
+      "eldest_kid": "0120aaffaebee8ef75fe62af16ec80ffadeb723f2712cdffe41490c7fceb24991c590a",
+      "host": "keybase.io",
+      "kid": "0120aaffaebee8ef75fe62af16ec80ffadeb723f2712cdffe41490c7fceb24991c590a",
+      "uid": "a206775f45b219ecdfacd17b536d3d19",
+      "username": "haquor"
+    },
+    "merkle_root": {
+      "ctime": 1575335533,
+      "hash": "3e3dc7fa47c881df032190f5d17b9d969b1189555ab08dfd9cbac9ea3c85beabb765946643ab7d696f0d249db1579c1df23bdfa8c3909567da43bd48604cf644",
+      "hash_meta": "d3777d4cea15cacb7dd8b52b0b0665ff9ca8dd02582b19f566c405e8993b54f7",
+      "seqno": 11873974
+    },
+    "service": {
+      "entropy": "kpf0r3z6blWC/T+1MuLn4C6n",
+      "hostname": "haquor.pw",
+      "protocol": "https:"
+    },
+    "type": "web_service_binding",
+    "version": 2
+  },
+  "client": {
+    "name": "keybase.io go client",
+    "version": "5.0.0"
+  },
+  "ctime": 1575335537,
+  "expire_in": 504576000,
+  "prev": "81dfc02a97a88e96256c7156e4558bcc047de295aa99dee108f27caf07751fd8",
+  "seqno": 9,
+  "tag": "signature"
+}
+
+which yields the signature:
+
+hKRib2R5hqhkZXRhY2hlZMOpaGFzaF90eXBlCqNrZXnEIwEgqv+uvujvdf5irxbsgP+t63I/JxLN/+QUkMf86ySZHFkKp3BheWxvYWTESpcCCcQggd/AKpeojpYlbHFW5FWLzAR94pWqmd7hCPJ8rwd1H9jEIA1kYP6tHiS6OeyGke6tbb34/PS4sOFTqMXZRRya+n5gAgHCo3NpZ8RA0uPivHCEdaQoGRJdhAR1tzEojV05WwQC236dO2OhyZTd66hL6DbYAzEa0MqGxu7rRJx3GXi41CdnHzLJY653AahzaWdfdHlwZSCkaGFzaIKkdHlwZQildmFsdWXEIFWwswqoO9wPQ0RL3BH4UtvCZ8zi6DHKeddyte91znYPo3RhZ80CAqd2ZXJzaW9uAQ==
+
+And finally, I am proving ownership of this host by posting or
+appending to this document.
+
+View my publicly-auditable identity here: https://keybase.io/haquor
+
+==================================================================

@@ -5,7 +5,7 @@ date: 2019-12-09T01:12:14-05:00
 draft: false
 type: post
 url: /2019/12/09/dnssec-bad/
-image: "dnsssec.png"
+image: "dnssec.png"
 ---
 
 #### After switching ISPs I started to encounter a weird problem. A lot of random websites simply didn't load.

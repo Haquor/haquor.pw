@@ -11,48 +11,22 @@ It's hard to put into words my distaste for bloatware.
 
 Every installation of Windows comes with a certain set of extra software. Depending on where you get your computer, you'll find a preinstalled set of games, applications and sometimes even [adware](https://www.cnet.com/news/superfish-torments-lenovo-owners-with-more-than-adware/). Retail locations from brick and mortar stores like Best Buy to online vendors such as [Lenovo](https://www.pcworld.com/article/2889905/if-you-hate-pc-bloatware-here-are-the-vendors-to-avoid.html) package their products with such annoying bloatware.
 
-Working in a bloated environment is unacceptable. It's 2019, and we live in a world where we can get _whatever_ we want,_ whenever _we want. This reality **should** enable us to cultivate purposeful, efficient work spaces. 
+Working in a bloated environment is unacceptable. It's 2019, and we live in a world where we can get _whatever_ we want, _whenever_ we want. This reality **should** enable us to cultivate purposeful, efficient work spaces. 
 
 <!--more-->
 These days, even the variety of projects I find myself engrossed in often create a bloated environment. New projects and challenges force me to adapt with new software solutions, which just seem to stack up on my hard drive.
 
-
-
-
-
-
-
 When the time comes to move to a new device, or worse yet, work on someone else's, I'm gripped by a very real and very visceral fear. What software do I take? How do I recreate my environment? 
-
-
-
-
-
-
 
 I find myself scrambling for the proper media. More often than not, that means a trip to the store for a new USB drive. Sure, shelling out the money for an external HDD is well worth it's weight. But what happens when you've modified nearly 100 files while working remotely and then have to manually overwrite them BACK onto the HDD for backup purposes?
 
-
-
-
-
-
-
 It's no way to live. I propose a better solution.
-
-
-
-
-
-
 
 There's a few requirements I'm looking for:
 
-
-
-
-
-  1. EASE OF USE --- Things can't get too complicated. It needs to be secure, yet simple and elegant   2. SECURITY --- If I'm going to use a cloud solution, I need both end-to-end and client-side encryption   3. MOBILITY --- I want to be able to provision **any** OS at any time with the applications, files and settings I've come to know and love.
+  1. **EASE OF USE** --- Things can't get too complicated. It needs to be secure, yet simple and elegant   
+  2. **SECURITY** --- If I'm going to use a cloud solution, I need both end-to-end and client-side encryption
+  3. **MOBILITY** --- I want to be able to provision **any** OS at any time with the applications, files and settings I've come to know and love.
 
 
 

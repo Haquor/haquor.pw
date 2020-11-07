@@ -31,6 +31,7 @@ defined in [`.gitlab-ci.yml`](.gitlab-ci.yml).
 To work locally with this project, you'll have to follow the steps below:
 
 1. Fork, clone or download this project
+1. [Initialize and update submodules](https://git-scm.com/book/en/v2/Git-Tools-Submodules)
 1. [Install][] Hugo
 1. Preview your project: `hugo server`
 1. Add content

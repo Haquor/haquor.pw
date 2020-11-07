@@ -9,7 +9,7 @@ url: /2019/03/10/building-a-discord-bot-a-real-one-part-1/
 
 "Bot" is a word we throw around a lot these days.
 
-Aimbots, spam bots and the occasionally nets of bots. I think it's time we wake up. Bots shouldn't be dumb. To fight back against those who think our bots just do what we tell them, we're going to code one with sentience. (Just kidding). ((Sorta))
+Aimbots, spam bots and the occasionally nets of bots. I think it's time we wake up. Bots shouldn't be dumb. To fight back against those who think our bots just do what we tell them, we're going to code one with sentience. (Just kidding). (Sorta)
 
 We're going to create one that learns.
 <!--more-->
@@ -42,7 +42,7 @@ The general idea is if you're gonna use a bot, go legit, and register it through
     python3 -m pip install discord.py==0.16.12
 
 
-Now let's download that sample code and get things functional. Create an app, import your token, and run that bitch.
+Now let's download that sample code and get things functional. Create an app, import your token, and run that song of a gun.
 
 Logged in as
 レイン, ｌａｉｎ れいん

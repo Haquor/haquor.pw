@@ -1,7 +1,8 @@
 ---
 title: "2020 11 07 Daily Tip Reading Pdfs in Terminal"
 date: 2020-11-07T18:51:20-05:00
-draft: true
+draft: false
+type: post
 ---
 
 To read PDFs in terminal, we will utilize the less command.

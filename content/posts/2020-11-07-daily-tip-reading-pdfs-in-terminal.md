@@ -4,7 +4,6 @@ date: 2020-11-07T18:51:20-05:00
 draft: false
 type: post
 ---
-
 To read PDFs in terminal, we will utilize the less command.
 Less is a file pager, which is a fancy way of saying it lets you view files in terminal.
 Unfortuanately though, less alone can't parse PDF files into anything less than a jumble of binary garbage.
@@ -26,3 +25,4 @@ Keep in mind, if you don't use ZSH, you'll need to create a variable in the conf
 
 For good measure, reinitialize your terminal, and you'll be free to test it out on a PDF
 	less NuclearLaunchCodes.pdf
+<!--more-->
